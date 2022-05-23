@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel= "stylesheet" href="style.css"/>
+
+</head>
+    <body>
+        <header>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <img src="./imagenes/Vector (3).svg">
+        </header>
+            <main>
+              <section>
+                <textarea placeholder="Ingresa el texto que deseas encriptar"type="text"class="textArea1"></textarea>
+                        <h6>Solo letras minúsculas y sin acentos</h6>
+                             <div class="container">
+                    <button type="button" class="boton1" onclick="botonEncriptar()">Encriptar</button>
+                    <button type="button" class="boton2"onclick="botonDesencriptar()">Desencriptar</button>
+                 </div>
+    </section>
+    
+    <div class="caja1">
+        <img src="./imagenes/Muñeco.svg">
+        <textarea type="text" class="textArea2" placeholder="Aquí aparece tú texto encriptado"></textarea>
+        <button type="button" class="boton3" onclick="botonCopiar()">Copiar</button>
+    </div>
+    <footer class="pie">
+        Desarrollado por David Burgos
+    </footer>
+            </main>
+            
+
+            <script src="javascript.js"></script>
+    </body>
+</html>
